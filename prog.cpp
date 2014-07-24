@@ -3,10 +3,12 @@
 #include "InstrumentData.h"
 int main()
 {
-	InstrumentData data;
+	std::auto_ptr<InstrumentData> data( new InstrumentData() );
 	//data.process();
-	data.populate();
+	//data.populate();
 	
+	//work for issue 1.
+	data.get()->process();
 	
   return 0;
 }
