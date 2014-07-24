@@ -8,4 +8,6 @@ public:
 	virtual ~InstrumentData();
 	
 	void Process(); 
+	
+	void populate(); // hot fix 
 };

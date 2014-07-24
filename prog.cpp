@@ -4,7 +4,9 @@
 int main()
 {
 	InstrumentData data;
-	data.process();
+	//data.process();
+	data.populate();
+	
 	
   return 0;
 }
