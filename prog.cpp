@@ -1,8 +1,10 @@
 #include <stdio.h>
-#include "Wrapper.h"
+//#include "Wrapper.h"
+#include "InstrumentData.h"
 int main()
 {
-	Wrapper h;
+	InstrumentData data;
+	data.process();
 	
   return 0;
 }
